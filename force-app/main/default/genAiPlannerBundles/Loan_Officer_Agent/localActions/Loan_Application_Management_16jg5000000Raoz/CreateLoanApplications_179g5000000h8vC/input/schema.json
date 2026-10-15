@@ -1,0 +1,23 @@
+{
+  "required" : [ "Requested_Amount", "Term_Months" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Requested_Amount" : {
+      "title" : "Requested_Amount",
+      "description" : "How much are you requesting for the loan?",
+      "lightning:type" : "lightning__currencyType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Term_Months" : {
+      "title" : "Term_Months",
+      "description" : "How long will you be repaying the loan?",
+      "multipleOf" : 1.0E-34,
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

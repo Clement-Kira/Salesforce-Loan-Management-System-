@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validating_Documents</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Status__c, &quot;Submitted&quot;),
+  OR(
+    AND(
+      ($RecordType.DeveloperName = &quot;Home_Loan_RT&quot;),
+      OR(
+        NOT(Bank_Statement__c),
+        NOT(ID_Uploaded__c),
+        NOT(Proof_Of_Resident__c)
+      )
+    ),
+    AND(
+      ($RecordType.DeveloperName = &quot;Personal_Loan_RT&quot;),
+      OR(
+         NOT(Bank_Statement__c), 
+         NOT(ID_Uploaded__c), 
+         NOT(Proof_Of_Resident__c))
+    ),
+    AND(
+      ($RecordType.DeveloperName = &quot;Vehicle_Loan_RT&quot;),
+      OR(
+        NOT(Bank_Statement__c),
+        NOT(ID_Uploaded__c),
+        NOT(License_Verification__c),
+        NOT(Proof_Of_Resident__c)
+      )
+    )
+  )
+)</errorConditionFormula>
+    <errorMessage>Please make sure you Upload the documents.</errorMessage>
+</ValidationRule>

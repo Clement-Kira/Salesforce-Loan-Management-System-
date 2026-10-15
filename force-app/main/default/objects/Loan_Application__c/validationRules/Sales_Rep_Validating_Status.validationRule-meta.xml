@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Rep_Validating_Status</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+      $Profile.Name = &quot;Sales Rep&quot;,
+      ISCHANGED( Status__c ),
+      OR( 
+         ISPICKVAL( Status__c , &quot;Approved&quot;),
+         ISPICKVAL( Status__c , &quot;Declined&quot;)
+        ) 
+)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>You do NOT have the permissions for choosing that Status</errorMessage>
+</ValidationRule>

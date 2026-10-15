@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Of_Decline__c</fullName>
+    <label>Reason Of Decline</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Enough Documents Uploaded</fullName>
+                <default>false</default>
+                <label>Not Enough Documents Uploaded</label>
+            </value>
+            <value>
+                <fullName>Insufficient or Unstable Income</fullName>
+                <default>false</default>
+                <label>Insufficient or Unstable Income</label>
+            </value>
+            <value>
+                <fullName>Poor Credit History</fullName>
+                <default>false</default>
+                <label>Poor Credit History</label>
+            </value>
+            <value>
+                <fullName>Low Credit Score</fullName>
+                <default>false</default>
+                <label>Low Credit Score</label>
+            </value>
+            <value>
+                <fullName>Inadequate Collateral (Weak)</fullName>
+                <default>false</default>
+                <label>Inadequate Collateral (Weak)</label>
+            </value>
+            <value>
+                <fullName>You Don&apos;t Meet the Minimum Requirements</fullName>
+                <default>false</default>
+                <label>You Don&apos;t Meet the Minimum Requirements</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Not Enough Documents Uploaded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Insufficient or Unstable Income</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Poor Credit History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Low Credit Score</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Inadequate Collateral (Weak)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>You Don&apos;t Meet the Minimum Requirements</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

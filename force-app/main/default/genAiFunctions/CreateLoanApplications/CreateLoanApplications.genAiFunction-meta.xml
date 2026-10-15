@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Creating loan applications using a flow</description>
+    <developerName>CreateLoanApplications</developerName>
+    <invocationTarget>CreateLoanApplications</invocationTarget>
+    <invocationTargetType>flow</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <localDeveloperName>CreateLoanApplications</localDeveloperName>
+    <masterLabel>CreateLoanApplications</masterLabel>
+    <progressIndicatorMessage>Loan Application Loading..</progressIndicatorMessage>
+</GenAiFunction>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_Loan_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( RecordType.DeveloperName = &quot;Vehicle_Loan_RT&quot;,  
+    OR( Requested_Amount__c  &lt; 100000, 
+      Requested_Amount__c &gt; 3000000)
+)</errorConditionFormula>
+    <errorDisplayField>Requested_Amount__c</errorDisplayField>
+    <errorMessage>Please make sure the Requested Amount is Greater than R100 000 and Less than R3 Million</errorMessage>
+</ValidationRule>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Case Loan Auto Resp</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.IsEscalated</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>clementkira.dev@gmail.com</replyToEmail>
+            <senderEmail>cthipe@quarphix.co.za</senderEmail>
+            <senderName>Service Agent</senderName>
+            <template>unfiled$public/SupportEscalatedCaseReassignment</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

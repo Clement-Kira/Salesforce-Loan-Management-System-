@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Personal_Loan_RT</fullName>
+    <active>true</active>
+    <label>Personal Loan RT</label>
+    <picklistValues>
+        <picklist>Loan_Type__c</picklist>
+        <values>
+            <fullName>Personal_Loan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_Of_Decline__c</picklist>
+        <values>
+            <fullName>Inadequate Collateral %28Weak%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient or Unstable Income</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Credit Score</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Enough Documents Uploaded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Credit History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>You Don%27t Meet the Minimum Requirements</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disbursed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Docs Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Term_Months__c</picklist>
+        <values>
+            <fullName>36</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>72</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

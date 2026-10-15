@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reason Of Decline --></label>
+    <name>Reason_Of_Decline__c</name>
+    <picklistValues>
+        <masterLabel>Inadequate Collateral (Weak)</masterLabel>
+        <translation><!-- Inadequate Collateral (Weak) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insufficient or Unstable Income</masterLabel>
+        <translation><!-- Insufficient or Unstable Income --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Low Credit Score</masterLabel>
+        <translation><!-- Low Credit Score --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Enough Documents Uploaded</masterLabel>
+        <translation><!-- Not Enough Documents Uploaded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poor Credit History</masterLabel>
+        <translation><!-- Poor Credit History --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>You Don&apos;t Meet the Minimum Requirements</masterLabel>
+        <translation><!-- You Don&apos;t Meet the Minimum Requirements --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

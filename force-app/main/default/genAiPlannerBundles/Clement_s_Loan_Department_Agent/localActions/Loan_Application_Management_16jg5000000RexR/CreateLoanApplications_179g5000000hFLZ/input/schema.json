@@ -1,0 +1,49 @@
+{
+  "required" : [ "Email", "First_name", "Last_name", "Requested_Amount", "Salutation", "Term_Months" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Email" : {
+      "title" : "Email",
+      "description" : "Enter your email address",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "First_name" : {
+      "title" : "First_name",
+      "description" : "Enter your first name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Last_name" : {
+      "title" : "Last_name",
+      "description" : "Enter your last name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Requested_Amount" : {
+      "title" : "Requested_Amount",
+      "description" : "How much are you requesting for the loan?",
+      "lightning:type" : "lightning__currencyType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Salutation" : {
+      "title" : "Salutation",
+      "description" : "Enter your salutation",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Term_Months" : {
+      "title" : "Term_Months",
+      "description" : "How long will you be repaying the loan?",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

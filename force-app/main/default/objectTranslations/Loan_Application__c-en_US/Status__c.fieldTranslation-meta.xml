@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Approved</masterLabel>
+        <translation><!-- Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit Review</masterLabel>
+        <translation><!-- Credit Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Declined</masterLabel>
+        <translation><!-- Declined --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disbursed</masterLabel>
+        <translation><!-- Disbursed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Docs Pending</masterLabel>
+        <translation><!-- Docs Pending --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation><!-- Draft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Affairs Verification</masterLabel>
+        <translation><!-- Home Affairs Verification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>License Verification</masterLabel>
+        <translation><!-- License Verification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Submitted</masterLabel>
+        <translation><!-- Submitted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vehicle Assessment</masterLabel>
+        <translation><!-- Vehicle Assessment --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

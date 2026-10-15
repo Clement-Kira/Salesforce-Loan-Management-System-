@@ -1,0 +1,11 @@
+Dear {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+Thank you for applying for a loan with Clement's Loan Department. After careful review of your application, we regret to inform you that your application is Declined.
+
+We appreciate your interest in working with us and wish you success in your financial journey.
+
+For any enquiries, please reach us here clementk2001@jdsvpsuarq2us0ja6fkizazxzcl2zfihagp4xmo4yv742if8i.g5-8sn4feae.ind168.case.salesforce.com
+
+Kind regards,
+Clement's Loan Department
+{!Today()}

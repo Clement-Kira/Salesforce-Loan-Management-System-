@@ -1,0 +1,7 @@
+The Loan Application record belongs to {!Loan_Application__c.Contact__c}
+
+{!Contact.Salutation} {!Contact.LastName}, has Submitted a request for a loan amount of {!Loan_Application__c.Requested_Amount__c} for the {!Loan_Application__c.RecordType}.
+
+Go through their Application.
+
+Kind regards, Credit Team

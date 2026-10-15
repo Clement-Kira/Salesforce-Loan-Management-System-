@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Docs Pending</fullName>
+                <default>false</default>
+                <label>Docs Pending</label>
+            </value>
+            <value>
+                <fullName>Home Affairs Verification</fullName>
+                <default>false</default>
+                <label>Home Affairs Verification</label>
+            </value>
+            <value>
+                <fullName>License Verification</fullName>
+                <default>false</default>
+                <label>License Verification</label>
+            </value>
+            <value>
+                <fullName>Vehicle Assessment</fullName>
+                <default>false</default>
+                <label>Vehicle Assessment</label>
+            </value>
+            <value>
+                <fullName>Credit Review</fullName>
+                <default>false</default>
+                <label>Credit Review</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Disbursed</fullName>
+                <default>false</default>
+                <label>Disbursed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

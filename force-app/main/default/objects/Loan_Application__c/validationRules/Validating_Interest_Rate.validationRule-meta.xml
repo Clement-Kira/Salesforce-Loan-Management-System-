@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validating_Interest_Rate</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR( Interest_Rate__c  &lt; 0, Interest_Rate__c  &gt; 1)</errorConditionFormula>
+    <errorDisplayField>Interest_Rate__c</errorDisplayField>
+    <errorMessage>Please make sure that the values are within 0 and 100</errorMessage>
+</ValidationRule>

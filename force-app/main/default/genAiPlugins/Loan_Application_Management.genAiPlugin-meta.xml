@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Can Create the Loan Application record, can Read the record, and update the record. Manages all the queries to the application, does not DELETE the loan application record.</description>
+    <developerName>Loan_Application_Management</developerName>
+    <genAiPluginInstructions>
+        <description>Given requested amount and term months create a loan application record on Salesforce</description>
+        <developerName>instruction_0_1778006954872</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0_1778006954872</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <localDeveloperName>Loan_Application_Management</localDeveloperName>
+    <masterLabel>Loan Application Management</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Manages Loan Application Records by Creating, Reading and Updating Loan Application Records given user requests</scope>
+</GenAiPlugin>

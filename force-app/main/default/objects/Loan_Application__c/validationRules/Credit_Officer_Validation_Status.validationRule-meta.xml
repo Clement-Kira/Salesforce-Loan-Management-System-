@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Officer_Validation_Status</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    $Profile.Name = &quot;Credit Officer&quot;,
+    OR(
+        RecordType.DeveloperName = &quot;Home_loan_RT&quot;,
+        RecordType.DeveloperName = &quot;Personal_Loan_RT&quot;,
+        RecordType.DeveloperName = &quot;Vehicle_Loan_RT&quot;
+      ),
+    NOT( 
+        OR(
+            ISPICKVAL( Status__c, &quot;Approved&quot;),
+            ISPICKVAL( Status__c , &quot;Decliened&quot;)
+           ) 
+       )  
+)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>You can only select Approved or Declined for Status.</errorMessage>
+</ValidationRule>

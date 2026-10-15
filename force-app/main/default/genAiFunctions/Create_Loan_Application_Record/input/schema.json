@@ -1,0 +1,21 @@
+{
+  "required" : [ "Requested_Amount", "Term_Months" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Requested_Amount" : {
+      "title" : "Requested_Amount",
+      "description" : "How much are you requesting for the loan? The amount round it off to decimal places",
+      "lightning:type" : "lightning__currencyType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Term_Months" : {
+      "title" : "Term_Months",
+      "description" : "How many months will you be paying the loan?",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

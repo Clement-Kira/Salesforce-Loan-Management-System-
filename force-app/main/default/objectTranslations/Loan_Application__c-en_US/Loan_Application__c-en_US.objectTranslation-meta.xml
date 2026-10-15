@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Loan Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Loan Applications</value>
+    </caseValues>
+    <layouts>
+        <layout>Home Loan PL</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Loan_Application__c Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Personal Loan PL</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vehicle Loan PL</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Home Loan RT --></label>
+        <name>Home_Loan_RT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Personal Loan RT --></label>
+        <name>Personal_Loan_RT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Vehicle Loan RT --></label>
+        <name>Vehicle_Loan_RT</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Collateral Is Required! --></errorMessage>
+        <name>Collateral_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only select Approved or Declined for Status. --></errorMessage>
+        <name>Credit_Officer_Validation_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure the Requested Amount is Greater than R250 000 and Less than R5 Million --></errorMessage>
+        <name>Home_Loan_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure that the Requested Amount is Greater than R5000 and Less than R500000 --></errorMessage>
+        <name>Personal_Loan_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do NOT have the permissions for choosing that Status --></errorMessage>
+        <name>Sales_Rep_Validating_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>
+            <!-- You cannot disburse an application without having a date.
+
+You Cannot Enter Previous Date. Please Enter a Future Date. -->
+        </errorMessage>
+        <name>Validating_Disburse_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure you Upload the documents. --></errorMessage>
+        <name>Validating_Documents</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure that the values are within 0 and 100 --></errorMessage>
+        <name>Validating_Interest_Rate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the Reason of Decline --></errorMessage>
+        <name>Validating_Reason_of_Decline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Risk Score cannot be Less than 1 or Greater than 10 --></errorMessage>
+        <name>Validating_Risk_Score</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure the Requested Amount is Greater than R100 000 and Less than R3 Million --></errorMessage>
+        <name>Vehicle_Loan_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

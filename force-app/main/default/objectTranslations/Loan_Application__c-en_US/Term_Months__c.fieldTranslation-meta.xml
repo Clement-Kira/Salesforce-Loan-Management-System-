@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Term Months --></label>
+    <name>Term_Months__c</name>
+    <picklistValues>
+        <masterLabel>108</masterLabel>
+        <translation><!-- 108 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12</masterLabel>
+        <translation><!-- 12 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>120</masterLabel>
+        <translation><!-- 120 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>132</masterLabel>
+        <translation><!-- 132 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>144</masterLabel>
+        <translation><!-- 144 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>156</masterLabel>
+        <translation><!-- 156 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>168</masterLabel>
+        <translation><!-- 168 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>180</masterLabel>
+        <translation><!-- 180 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>192</masterLabel>
+        <translation><!-- 192 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>204</masterLabel>
+        <translation><!-- 204 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>36</masterLabel>
+        <translation><!-- 36 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>48</masterLabel>
+        <translation><!-- 48 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>60</masterLabel>
+        <translation><!-- 60 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>72</masterLabel>
+        <translation><!-- 72 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>84</masterLabel>
+        <translation><!-- 84 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>96</masterLabel>
+        <translation><!-- 96 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>Collateral_Path</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Collateral Path</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Collateral_RT</recordTypeName>
+    <sobjectType>Collateral__c</sobjectType>
+    <targetField>Release_Status__c</targetField>
+    <targetFieldChangeToValues>Fully Released</targetFieldChangeToValues>
+</AnimationRule>

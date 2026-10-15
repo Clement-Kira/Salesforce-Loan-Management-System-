@@ -1,0 +1,9 @@
+Dear {!Contact.FirstName} {!Contact.LastName}
+
+Your Loan Application Status Is Drafted, Ready your documents for the next phase, our team will be in touch with you soon.
+
+For any enquiries please reach us here clementk2001@jdsvpsuarq2us0ja6fkizazxzcl2zfihagp4xmo4yv742if8i.g5-8sn4feae.ind168.case.salesforce.com
+
+Kind regards,
+Clement's Loan Department
+{!Today()}
